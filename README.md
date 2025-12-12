@@ -135,16 +135,23 @@ Le périmètre inclut **tout le N2** + les extensions suivantes :
 
 
 ### N1 — Imiter
-
-<!-- en rédaction -->
+**Description** : Réalisation du **CRUD complet** pour les Articles en suivant le tutoriel pas à pas :
+*   Création du contrôleur `ArticleController` avec les 7 méthodes (index, create, store, show, edit, update, destroy).
+*   Mise en place des routes et des vues Blade associées.
+*   Gestion de la validation des formulaires.
+**Objectif** : Comprendre le cycle de vie d'une ressource CRUD standard dans Laravel.
 
 ### N2 — Adapter
-
-<!-- en rédaction -->
+**Description** : Amélioration du CRUD de base :
+*   **Pagination** : Ajouter la pagination sur la liste des articles.
+*   **Filtres** : Permettre de filtrer par catégorie.
+*   **Recherche** : Ajouter une barre de recherche simple.
+*   **Styling** : Intégrer TailwindCSS pour un design propre.
+**Objectif** : Rendre l'interface d'administration utilisable et ergonomique.
 
 ### N3 — Transposer
-
-<!-- en rédaction -->
+**Description** : Création d'un CRUD pour une **nouvelle entité** (ex: Catégories ou Commentaires) sans tutoriel guidé.
+**Objectif** : Être capable de reproduire la logique CRUD en autonomie pour n'importe quelle entité du projet.
 
 ---
 
